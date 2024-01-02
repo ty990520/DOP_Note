@@ -8,3 +8,7 @@
   - **GuardDuty Malware Protection** : 주로 악성 소프트웨어 감지
 - **AWS Inspector** : 애플리케이션의 보안 취약성과 규정 준수 상태를 자동으로 평가
 - **AWS Config** : AWS 리소스와 관련된 구성 변경을 자동으로 추적하고 평가
+- **CloudWatch Logs**
+  - **CloudWatch Logs Insights 쿼리** : CloudWatch Logs에 저장된 로그 데이터를 쿼리, 분석 (복잡한 쿼리 가능)
+    - 이벤트에 대한 자동 반응 및 알림을 구성하는 데는 직접적으로 사용되지 않음
+  - **구독 필터(subscription filter)** : 로그 이벤트에 대한 자동 반응 및 알림을 구성
