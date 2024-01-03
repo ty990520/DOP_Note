@@ -12,3 +12,8 @@
   - **CloudWatch Logs Insights 쿼리** : CloudWatch Logs에 저장된 로그 데이터를 쿼리, 분석 (복잡한 쿼리 가능)
     - 이벤트에 대한 자동 반응 및 알림을 구성하는 데는 직접적으로 사용되지 않음
   - **구독 필터(subscription filter)** : 로그 이벤트에 대한 자동 반응 및 알림을 구성
+- **AWS Trusted Advisor** : 고객에게 베스트 프랙티스 권장 사항을 제공
+  - 보안, 비용 최적화, 성능, 내결함성(fault tolerance), 서비스 제한 등 개선사항 식별
+- **AWS Security Hub** : 여러 AWS 서비스와 계정에 걸쳐 보안 데이터를 중앙에서 관리하고 모니터링
+- **AWS Directory Service의 AD Connector** : AWS환경에서 기존 온프레미스 Microsoft Active Directory(AD)와의 연결을 용이하게 해주는 서비스
+  - AD 자격 증명을 사용하여 AWS 애플리케이션 및 서비스에 접근 가능 
